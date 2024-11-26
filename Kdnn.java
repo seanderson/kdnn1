@@ -12,6 +12,8 @@ public class Kdnn {
             System.err.println(ex);
             System.exit(-1);
         }
+    KdTree kdt = new KdTree(dat);
+
 }
 
 }
